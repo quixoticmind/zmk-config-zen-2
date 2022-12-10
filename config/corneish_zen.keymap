@@ -55,7 +55,7 @@
    &kp TAB  &kp N1  &kp N2    &kp N3   &kp N4     &kp N5              &kp N6        &kp N7        &kp N8        &kp N9        &kp N0      &kp BSPC
     &kp F1  &kp F2  &kp F3    &kp F4   &kp F5     &kp F6            &kp LEFT      &kp DOWN        &kp UP     &kp RIGHT        &trans        &trans
  &kp LSHFT  &kp F8  &kp F9   &kp F10  &kp F11    &kp F12          &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-                            &kp LGUI   &trans  &kp SPACE             &kp RET        &trans      &kp RALT
+                            &kp LGUI   &trans  &kp SPACE               &none        &trans      &kp RALT
             >;
         };
 
@@ -74,19 +74,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-   &kp TAB   &kp EXCL     &kp AT          &kp LBRC  &kp RBRC   &kp PIPE          &kp GRAVE  &kp TILDE    &trans    &trans  &kp BACKSLASH   &kp BSPC
- &kp LCTRL   &kp HASH   &kp DLLR          &kp LPAR  &kp RPAR     &trans           &kp PLUS  &kp MINUS  &kp LBKT  &kp RBKT       &kp BSLH  &kp GRAVE
- &kp LSHFT  &kp PRCNT  &kp CARET  &kp LEFT_BRACKET  &kp RBKT     &trans           &kp AMPS  &kp EQUAL    &kp LT    &kp GT   &kp QUESTION  &kp TILDE
-                                          &kp LGUI    &trans  &kp SPACE            &kp RET     &trans  &kp RALT
+   &kp TAB   &kp EXCL     &kp AT          &kp LBRC  &kp RBRC  &kp PIPE          &kp GRAVE  &kp TILDE    &trans    &trans  &kp BACKSLASH   &kp BSPC
+ &kp LCTRL   &kp HASH   &kp DLLR          &kp LPAR  &kp RPAR    &trans           &kp PLUS  &kp MINUS  &kp LBKT  &kp RBKT       &kp BSLH  &kp GRAVE
+ &kp LSHFT  &kp PRCNT  &kp CARET  &kp LEFT_BRACKET  &kp RBKT    &trans           &kp AMPS  &kp EQUAL    &kp LT    &kp GT   &kp QUESTION  &kp TILDE
+                                          &kp LGUI    &trans     &none          &kp SPACE     &trans    &trans
             >;
         };
 
         NAVIGATION {
             bindings = <
- &trans  &trans    &trans    &kp UP     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans    &trans    &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                             &trans     &trans  &trans          &trans  &trans  &trans
+ &trans   &none     &none    &kp UP      &none   &none           &none       &none      &kp C_VOL_DN       &none   &none  &trans
+ &trans   &none  &kp LEFT  &kp DOWN  &kp RIGHT   &none           &none  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT   &none  &trans
+ &trans   &none     &none     &none      &none   &none           &none       &none      &kp C_VOL_DN       &none   &none  &trans
+                             &trans     &trans  &trans          &trans      &trans            &trans
             >;
         };
     };
