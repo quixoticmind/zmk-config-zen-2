@@ -68,9 +68,9 @@
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  {  |  }  | "|" |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |  #  |  $  |  (  |  )  |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |  %  |  ^  |  [  |  ]  |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
+            // |  TAB |  !  |  @  |  {  |  }  | "|" |   |  `  |  ~  |     |     |  \  | BKSP |
+            // | CTRL |  #  |  $  |  (  |  )  |     |   |  +  |  -  |  [  |  ]  |  \  |  `   |
+            // | SHFT |  %  |  ^  |  [  |  ]  |     |   |  &  |  =  |  <  |  >  |  ?  |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
@@ -82,6 +82,7 @@
         };
 
         NAVIGATION {
+            label = "NAVIGATION";
             bindings = <
  &trans   &none     &none    &kp UP      &none   &none           &none       &none      &kp C_VOL_DN       &none   &none  &trans
  &trans   &none  &kp LEFT  &kp DOWN  &kp RIGHT   &none           &none  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT   &none  &trans
