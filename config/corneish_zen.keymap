@@ -58,7 +58,7 @@
 &kp TAB  &kp N1  &kp N2    &kp N3   &kp N4   &kp N5          &kp N6        &kp N7        &kp N8        &kp N9        &kp N0    &kp BSPC
  &kp F1  &kp F2  &kp F3    &kp F4   &kp F5   &kp F6        &kp LEFT      &kp DOWN        &kp UP     &kp RIGHT        &trans      &trans
  &kp F7  &kp F8  &kp F9   &kp F10  &kp F11  &kp F12    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
-                         &kp LGUI   &trans    &to 3           &none        &trans      &kp RALT
+                         &kp LGUI   &trans    &mo 3           &none        &trans      &kp RALT
             >;
         };
 
@@ -80,7 +80,7 @@
   &kp TAB   &kp EXCL     &kp AT            &kp LBRC  &kp RBRC  &kp PIPE    &kp GRAVE  &kp TILDE    &trans     &trans     &kp BACKSLASH   &kp BSPC
 &kp LCTRL   &kp HASH   &kp DLLR            &kp LPAR  &kp RPAR    &trans     &kp PLUS  &kp MINUS  &kp FSLH  &kp ASTRK  &kp SINGLE_QUOTE  &kp GRAVE
 &kp LSHFT  &kp PRCNT  &kp CARET            &kp LBKT  &kp RBKT    &trans     &kp AMPS  &kp EQUAL    &kp LT     &kp GT      &kp QUESTION  &kp TILDE
-                                 &kp LA(LC(DELETE))    &trans     &none        &to 3     &trans    &trans
+                                 &kp LA(LC(DELETE))    &trans     &none        &mo 3     &trans    &trans
             >;
         };
 
